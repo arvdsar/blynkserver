@@ -1,4 +1,4 @@
-FROM java:10-jre 
+FROM openjdk:10-jre 
 MAINTAINER Alexander 
 ENV BLYNK_SERVER_VERSION 0.39.4
 RUN mkdir /blynk
