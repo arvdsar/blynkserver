@@ -1,6 +1,6 @@
 FROM openjdk:11-jre 
 MAINTAINER Alexander 
-ENV BLYNK_SERVER_VERSION 0.41.13
+ENV BLYNK_SERVER_VERSION 0.41.14
 RUN mkdir /blynk
 RUN curl -L https://github.com/blynkkk/blynk-server/releases/download/v${BLYNK_SERVER_VERSION}/server-${BLYNK_SERVER_VERSION}.jar > /blynk/server.jar
 RUN mkdir /data
